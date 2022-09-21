@@ -126,7 +126,8 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-
+.whycard {
+}
 .whycard__top {
   display: flex;
   align-items: center;
@@ -229,35 +230,35 @@ body {
   margin: 0px auto;
 }
 
-.testimony__item {
+.testimonycard {
   background: white;
   padding: 15px;
   border: 1px solid rgb(241, 241, 241);
 }
-.testimonyuser__img {
+.testimonycard__user-img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.testimonyuser__item {
+.testimonycard__user {
   display: flex;
   align-items: center;
 }
 
-.testimonyuser__name {
+.testimonycard__username {
   margin-bottom: 8px;
   margin-top: 0px;
   font-size: 14px;
 }
 
-.testimonyuser__role {
+.testimonycard__userrole {
   font-size: 13px;
   color: gray;
   font-weight: 600;
 }
-.testimony__message {
+.testimonycard__message {
   font-size: 14px;
   color: gray;
   line-height: 2;
